@@ -27,40 +27,28 @@ body, html {
   color: white;
 }
 
-#title{
-  color: palevioletred;
-  text-align: center
-}
-
-#rules{
-  color: lightskyblue;
-  text-align:center;
-}
-
 
 #colors{
   font-weight: bold;
   color: burlywood;
   text-align: center;
+  font-size: x-large;
 }
 
-#numblist{
-  text-align: center;
-}
 
-#one{
 
-}
 
-#two{
-
-}
-
-#three{
-
-}
 
 #end{
  color: lightskyblue;
  text-align: center;
+ font-weight: bold;
+}
+
+
+input {
+    border: 0;
+    border-radius: 0;
+   
+    -webkit-appearance: none;
 }
