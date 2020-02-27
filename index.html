@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Three Marker Challenge</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script src="script.js">
+
+	</script>
+
+</head>
+
+<body>
+
+
+<div class="hero-image">
+  <div class="hero-text">
+
+
+<div class="space"></div>
+	<center><button id="btn" onclick="assign()">Get Colors</button></center>
+	<div id="colors">
+
+		YOUR COLORS ARE:
+<div id="one">Color One</div>
+<div id="two">Color Two</div>
+<div id="three">Color Three</div>
+</div>
+
+	<div id="end">Grab your coloring tools and have fun!</div>
+
+  	<script>
+		function assign() {
+  let colorSelection = markerChallenge(markerTotal)
+  document.getElementById("one").innerHTML = colorSelection[0];
+  document.getElementById("one").style.color = colorSelection[0];
+  document.getElementById("two").innerHTML = colorSelection[1];
+   document.getElementById("two").style.color = colorSelection[1];
+  document.getElementById("three").innerHTML = colorSelection[2];
+   document.getElementById("three").style.color = colorSelection[2];
+}
+	</script>
+
+  </div></div>
+</body>
+
+</html>
